@@ -26,14 +26,21 @@
 /*Chicken Adobo Pages*/
 .title{
     text-align: center;
-    padding: 1.5em;
+    
 }
 .img-container{
     margin: auto;
     text-align: center;
     border-style: solid;
+    padding: 1em;
+    background-color: grey;
+    margin: 25px;
 }
 .img-container .img{
     height: 300px;
     width: 300px;
+}
+.img-container .description{
+    max-width: 60ch;
+    margin: auto;
 }
