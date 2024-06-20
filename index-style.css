@@ -1,0 +1,39 @@
+*{
+    font-family: "Courier New", Courier, monospace; 
+    box-sizing: border-box;
+    
+}
+body{
+    padding: 0px 100px;
+    background-color: #4C5D26;
+}
+/*Index.html*/
+.title,
+.recipe-container{
+    margin: 16px;
+    background-color: #EAE0BC;
+}
+.title{
+    text-align: center;
+    background-color: #EAE0BC;
+    padding: 8px;
+    font-size: 1.5rem;
+}
+.recipe-container{
+    padding: 25px 100px;
+}
+.recipe-container .list{
+    width: auto;
+    outline: 2px solid chocolate;
+}
+.recipe-container a{
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+.recipe-container a:hover{
+    text-decoration: underline;
+}
